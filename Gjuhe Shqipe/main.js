@@ -1,5 +1,5 @@
 const questions = [
-  // GJUHË SHQIPE - 23 pyetje
+  // GJUHË SHQIPE - 42
   {
     question: "Cilat janë përemrat lidhorë?",
     answers: [
@@ -154,7 +154,7 @@ const questions = [
     ]
   },
   {
-    question: "Vendos fjalët: baba, xhaxha, vëlla në rasën kallëzore:",
+    question: "Vendos fjalët: baba, xhaxha, vëlla në rasën kallëzore, trajtën e shquar, njëjës:",
     answers: [
       { text: "Babai, xhaxhai, vëllai", correct: false },
       { text: "Babait, xhaxhait, vëllait", correct: false },
@@ -205,6 +205,184 @@ const questions = [
       { text: "Lamtumirë", correct: true },
       { text: "Vendi", correct: false },
       { text: "Im", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë studion leksikologjia?",
+    answers: [
+      { text: "Ndërtimin e fjalive", correct: false },
+      { text: "Zhvillimin historik të gjuhës", correct: false },
+      { text: "Fjalët dhe kuptimin e tyre", correct: true },
+      { text: "Zanoret dhe bashkëtingëlloret", correct: false }
+    ]
+  },
+  {
+    question: "Cila nga këto fjalë është fjalëformim me prapashtesë?",
+    answers: [
+      { text: "Bukë", correct: false },
+      { text: "Bukor", correct: false },
+      { text: "Bukorësh", correct: true },
+      { text: "Bukë e bardhë", correct: false }
+    ]
+  },
+  {
+    question: "Sinonim i fjalës 'i bukur' është:",
+    answers: [
+      { text: "I mirë", correct: false },
+      { text: "I lezetshëm", correct: true },
+      { text: "I gjatë", correct: false },
+      { text: "I ri", correct: false }
+    ]
+  },
+  {
+    question: "Cila nga fjalët ka kuptim të shumëfishtë (polisemik)?",
+    answers: [
+      { text: "Dritë", correct: true },
+      { text: "Këpucë", correct: false },
+      { text: "Rrugë", correct: false },
+      { text: "Tryezë", correct: false }
+    ]
+  },
+  {
+    question: "Antonimi i fjalës 'i trashë' është:",
+    answers: [
+      { text: "I dobët", correct: false },
+      { text: "I hollë", correct: true },
+      { text: "I ngushtë", correct: false },
+      { text: "I shkurtër", correct: false }
+    ]
+  },
+
+  // Sintaksë
+  {
+    question: "Çfarë është fjalia e thjeshtë?",
+    answers: [
+      { text: "Një fjali pa folje", correct: false },
+      { text: "Fjali me një folje dhe një ide të plotë", correct: true },
+      { text: "Fjali që përmban shumë togfjalësha", correct: false },
+      { text: "Fjali me dy apo më shumë folje", correct: false }
+    ]
+  },
+  {
+    question: "Cili është funksioni i kallëzuesit në fjali?",
+    answers: [
+      { text: "Tregon veprimin ose gjendjen", correct: true },
+      { text: "Zëvendëson emrin", correct: false },
+      { text: "Shpreh vendin", correct: false },
+      { text: "Lidh fjalitë", correct: false }
+    ]
+  },
+  {
+    question: "Cili është rendi i zakonshëm i fjalëve në gjuhën shqipe?",
+    answers: [
+      { text: "Emër – folje – ndajfolje", correct: false },
+      { text: "Kryefjalë – kallëzues – kundrinë", correct: true },
+      { text: "Ndajfolje – emër – folje", correct: false },
+      { text: "Kallëzues – kryefjalë – mbiemër", correct: false }
+    ]
+  },
+  {
+    question: "Cila pjesë e fjalës është kallëzuesi në fjali?",
+    answers: [
+      { text: "Mbiemri", correct: false },
+      { text: "Ndajfolja", correct: false },
+      { text: "Folja", correct: true },
+      { text: "Parafjala", correct: false }
+    ]
+  },
+  {
+    question: "Në cilën rasë është fjala 'nxënësit' në fjali: 'Ia dhashë nxënësit librin'?",
+    answers: [
+      { text: "Në emërore", correct: false },
+      { text: "Në kallëzore", correct: false },
+      { text: "Në dhanore", correct: true },
+      { text: "Në rrjedhore", correct: false }
+    ]
+  },
+  {
+    question: "Fjalia 'Ai lexon një libër' është fjali:",
+    answers: [
+      { text: "E përbërë", correct: false },
+      { text: "Pyetëse", correct: false },
+      { text: "Mohore", correct: false },
+      { text: "Dëftore e thjeshtë", correct: true }
+    ]
+  },
+
+  // Morfologji
+  {
+    question: "Çfarë studion morfologjia?",
+    answers: [
+      { text: "Strukturën e fjalisë", correct: false },
+      { text: "Zhvillimin e kuptimeve të fjalëve", correct: false },
+      { text: "Ndërtimin dhe format gramatikore të fjalëve", correct: true },
+      { text: "Historinë e gjuhës", correct: false }
+    ]
+  },
+  {
+    question: "Cila është një pjesë e ndryshueshme e ligjëratës?",
+    answers: [
+      { text: "Parafjala", correct: false },
+      { text: "Ndajfolja", correct: false },
+      { text: "Emri", correct: true },
+      { text: "Pjesëza", correct: false }
+    ]
+  },
+  {
+    question: "Fjala 'shkollave' është në trajtën:",
+    answers: [
+      { text: "E pashquar, njëjës", correct: false },
+      { text: "E shquar, shumës", correct: true },
+      { text: "E shquar, njëjës", correct: false },
+      { text: "E pashquar, shumës", correct: false }
+    ]
+  },
+    // Meshari & Trashëgimi
+    {
+      question: "Cila është rëndësia e librit 'Meshari' i Gjon Buzukut?",
+      answers: [
+        { text: "Ishte libri i parë i përkthyer në greqisht", correct: false },
+        { text: "Është libri më i lexuar në Shqipëri", correct: false },
+        { text: "Është libri i parë i njohur i shkruar në gjuhën shqipe", correct: true },
+        { text: "Është një përmbledhje poemash", correct: false }
+      ]
+    },
+    {
+      question: "Në cilin vit u zbulua 'Meshari' i Gjon Buzukut?",
+      answers: [
+        { text: "1555", correct: false },
+        { text: "1740", correct: false },
+        { text: "1909", correct: true },
+        { text: "1937", correct: false }
+      ]
+    },
+
+  // Dialekte
+  {
+    question: "Cilat janë dy dialektet kryesore të shqipes?",
+    answers: [
+      { text: "Toskërishtja dhe gegërishtja", correct: true },
+      { text: "Shqipja standarde dhe arbërishtja", correct: false },
+      { text: "Kosovarja dhe elbasanishtja", correct: false },
+      { text: "Dialekti i veriut dhe i jugut", correct: false }
+    ]
+  },
+  {
+    question: "Kush e flet dialektin gegë?",
+    answers: [
+      { text: "Banorët e Shqipërisë së Jugut", correct: false },
+      { text: "Banorët e Kosovës, Malësisë dhe Shqipërisë së Veriut", correct: true },
+      { text: "Banorët e Maqedonisë", correct: false },
+      { text: "Të gjithë shqiptarët", correct: false }
+    ]
+  },
+  {
+    question: "Në çfarë alfabeti është shkruar 'Meshari'?",
+    answers: [
+      { text: "Alfabeti i ri latin", correct: false },
+      { text: "Alfabeti grek", correct: false },
+      { text: "Alfabeti cirilik", correct: false },
+      { text: "Alfabeti latin i përzier", correct: true }
     ]
   }
 ];
