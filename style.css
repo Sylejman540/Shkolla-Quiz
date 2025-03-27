@@ -1,0 +1,88 @@
+body{
+    font-family: LatoRobotoOpen Sans;
+    background-image: url(images/rm380-12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-span{
+    color: #FCC822;
+}
+
+.header h1{
+    font-size: 150px;
+}
+
+.banner-btn{
+    background-color: #FCC822;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.nav-bar a{
+    color: gray;
+}
+
+.about-btn{
+    background-color:  #FCC822;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 20px;   
+}
+
+.about-span{
+    border-left: 4px solid black;
+    font-weight: 500;
+}
+
+.services-btn{
+    background-color: #FCC822;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.services-btn1{
+    background-color: #FCC822;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #222;
+    color: grey;
+}
+
+.left{
+    line-height: 2;
+}
+
+
+.right input{
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}   
+
+.work{
+    background-color: rgb(215, 210, 210);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.article-header{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.article-btn{
+    background-color: #FCC822;
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: black;
+}

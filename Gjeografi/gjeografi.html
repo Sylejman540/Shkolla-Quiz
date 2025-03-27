@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="gjeografi.css">
+</head>
+<body>
+  <div class="flex justify-around md:ml-0 ml-5 md:mr-0 mr-5">
+    <h1 class="text-6xl font-bold text-center"><a href="javascript:void(0);" onclick="window.location.reload();">Quiz<span class="header-span">Grad</a></span></h1>
+    <nav class="md:block hidden">
+        <ul class="md:flex justify-around gap-10 mt-5 text-lg">
+            <li><a href="/index.html#works">Si Funksionon</a></li>
+            <li><a href="/index.html#services">Shërbimet Tona</a></li>
+            <li><a href="/index.html" class="home-btn p-3">Kthehu Ne Home</a></li>
+        </ul>
+    </nav>
+    <nav class="md:hidden">
+      <div class="flex justify-end items-center p-4">
+        <button id="burger" class="focus:outline-none" aria-label="Ndrysho menu-n">
+          <!-- Close Icon (X) hidden by default -->
+          <svg class="icon-close w-8 h-8 transition-transform duration-300 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+          <!-- Burger Icon visible by default -->
+          <svg class="icon-open w-8 h-8 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <ul id="menu-items" class="flex flex-col items-center space-y-4 mt-4 transform transition-all duration-300 opacity-0 pointer-events-none">
+        <li><a href="/index.html#works">Si Funksionon</a></li>
+        <li><a href="/index.html#services">Shërbimet Tona</a></li>
+        <li><a href="/index.html" class="home-btn p-1.5">Kthehu Ne Home</a></li>
+      </ul>
+    </nav>
+  </div>
+
+    
+    <script>
+      const menuItems = document.getElementById('menu-items');
+const iconClose = document.querySelector('.icon-close');
+const iconOpen = document.querySelector('.icon-open');
+
+burger.addEventListener('click', () => {
+  menuItems.classList.toggle('opacity-0');
+  menuItems.classList.toggle('pointer-events-none');
+  
+  // Toggle icons
+  iconClose.classList.toggle('hidden');
+  iconOpen.classList.toggle('hidden');
+});
+
+    </script>
+
+    <div class="app">
+        <h1>Gjeografi</h1>
+        <div class="quiz">
+          <h2 id="question">Question goes here</h2>
+          <div id="answer-buttons">
+            <!-- Answer buttons will be dynamically added here -->
+        </div>
+          <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <footer class="footer md:flex md:justify-around py-10 mt-20 text-center">
+      <div class="grid left">
+          <h1 class="text-3xl font-bold">Quiz<span class="header-span">Grad</span></h1>
+          <div>
+            <ul class="md:flex justify-around mt-5 text-lg font-bold">
+              <li><a href="#works">Si Funksionon</a></li>
+              <li><a href="#services">Shërbimet Tona</a></li>
+          </ul>
+          <p>&copy;Copyright @2025 QuizGrad. All rights reserved</p>
+          </div>
+      </div>
+
+      <div class="grid md:mt-0 mt-5">
+          <h1 class="text-white font-bold">Mbështetje E Ekipit</h1>
+          <a href="#">Bekim Sylka</a>
+          <a href="#">durgutisylejman00@gmail.com</a>
+          <a href="#">Kosove, Rahovec</a>
+      </div>
+
+      <div class="grid md:mt-0 mt-5">
+          <h1 class="text-white font-bold">Lidhje të Shpejta</h1>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+          <a href="#">Terms Of Use</a>
+      </div>
+
+      <div class="right md:mt-0 mt-5">
+        <h1 class="text-3xl font-bold">Rreth Quiz<span class="header-span">Grad</span></h1>
+        <p class="mt-3">
+          Quizgrad është një kompani quiz inovative<br>
+          që synon të bashkojë edukimin dhe argëtimin<br>
+          në një platformë dinamike
+        </p>
+      </div>
+  </footer>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

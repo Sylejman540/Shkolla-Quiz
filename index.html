@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>QuizGrad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <div class="flex justify-around md:ml-0 ml-5 md:mr-0 mr-5">
+    <h1 class="text-6xl font-bold text-center"><a href="javascript:void(0);" onclick="window.location.reload();">Quiz<span class="header-span">Grad</a></span></h1>
+    <nav class="md:block hidden">
+        <ul class="md:flex justify-around gap-10 mt-5 text-lg">
+            <li><a href="#works">Si Funksionon</a></li>
+            <li><a href="#services">Shërbimet Tona</a></li>
+        </ul>
+    </nav>
+    <nav class="md:hidden">
+      <div class="flex justify-end items-center p-4">
+        <button id="burger" class="focus:outline-none" aria-label="Ndrysho menu-n">
+          <!-- Close Icon (X) hidden by default -->
+          <svg class="icon-close w-8 h-8 transition-transform duration-300 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+          <!-- Burger Icon visible by default -->
+          <svg class="icon-open w-8 h-8 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <ul id="menu-items" class="flex flex-col items-center space-y-4 mt-4 transform transition-all duration-300 opacity-0 pointer-events-none">
+        <li><a href="#works">Si Funksionon</a></li>
+        <li><a href="#services">Shërbimet Tona</a></li>
+      </ul>
+    </nav>
+  </div>
+    
+  <section class="md:mt-20 md:flex md:justify-around md:text-start text-center">
+    <header class="mt-14 md:ml-40">
+       <h3 class="header-span">𝓖𝓪𝓽𝓲 𝓹ë𝓻 𝓽ë 𝓶ë𝓼𝓾𝓪𝓻?</h3>
+       <h1 class="text-6xl font-bold mt-5">Quiz<span class="header-span">Grad</span> Ka <br>Më të Mirat Metoda<br> të Mësimit</h1>
+       <button class="services-btn shadow-md"><a href="#services">Fillo zgjidhjen</a></button>
+    </header>
+    <img src="images/Group 118.png" alt="">
+  </section>
+
+  <section class="py-12 mt-20 md:hidden" id="works">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ml-5 mr-5">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Si funksionon?</h2>
+      <div class="overflow-x-auto md:flex md:justify-around">
+        <div class="flex flex-nowrap justify-evenly relative mb-20 space-x-8 w-400 md:">
+          
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7 7 0 0112 14h0a7 7 0 016.879 3.804M12 14v-4a4 4 0 10-8 0v4m0 0a4 4 0 008 0m-8 0a4 4 0 018 0" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 1: Regjistrohu</h3>
+            <p class="text-gray-600">
+              Krijo llogarinë tënde personale për të çaktivizuar një përvojë quiz-i të përshtatur dhe për të ndjekur përparimin.
+            </p>
+          </div>
+    
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 6H21M8 12h13M8 18h7M3 6h.01M3 12h.01M3 18h.01" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 2: Shfleto Kategoritë</h3>
+            <p class="text-gray-600">
+              Zgjidh nga një gamë temash quiz-i që të ngjallin interesin ose përputhen me qëllimet e studimit.
+            </p>
+          </div>
+    
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 7v-7m0 0l-9-5m9 5l9-5" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 3: Merr Pjesë në Quiz-e</h3>
+            <p class="text-gray-600">
+              Hyn në quiz-e me ritmin tënd dhe sfido veten me formate të ndryshme pyetjesh.
+            </p>
+          </div>
+    
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 4: Merr Feedback</h3>
+            <p class="text-gray-600">
+              Merr rezultate të menjëhershme dhe njohuri, të cilat të ndihmojnë të identifikosh pikat e forta dhe ato që duhet përmirësim.
+            </p>
+          </div>
+    
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6m6 13V3m6 16v-8M3 19v-2" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 5: Ndiq Përparimin</h3>
+            <p class="text-gray-600">
+              Monitoro historinë e quiz-eve, rezultatet dhe performancën tënde me kalimin e kohës për të qëndruar i motivuar dhe për të shkëlqyer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- For Desktop -->
+  <section class="py-12 mt-20 hidden md:block" id="works">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Si funksionon?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7 7 0 0112 14h0a7 7 0 016.879 3.804M12 14v-4a4 4 0 10-8 0v4m0 0a4 4 0 008 0m-8 0a4 4 0 018 0" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 1: Regjistrohu</h3>
+          <p class="text-gray-600">
+            Krijo llogarinë tënde personale për të çaktivizuar një përvojë quiz-i të përshtatur dhe për të ndjekur përparimin.
+          </p>
+        </div>
+  
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 6H21M8 12h13M8 18h7M3 6h.01M3 12h.01M3 18h.01" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 2: Shfleto Kategoritë</h3>
+          <p class="text-gray-600">
+            Zgjidh nga një gamë temash quiz-i që të ngjallin interesin ose përputhen me qëllimet e studimit.
+          </p>
+        </div>
+  
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 7v-7m0 0l-9-5m9 5l9-5" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 3: Merr Pjesë në Quiz-e</h3>
+          <p class="text-gray-600">
+            Hyn në quiz-e me ritmin tënd dhe sfido veten me formate të ndryshme pyetjesh.
+          </p>
+        </div>
+  
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 4: Merr Feedback</h3>
+          <p class="text-gray-600">
+            Merr rezultate të menjëhershme dhe njohuri, të cilat të ndihmojnë të identifikosh pikat e forta dhe ato që duhet përmirësim.
+          </p>
+        </div>
+  
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mb-3">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6m6 13V3m6 16v-8M3 19v-2" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Hapi 5: Ndiq Përparimin</h3>
+          <p class="text-gray-600">
+            Monitoro historinë e quiz-eve, rezultatet dhe performancën tënde me kalimin e kohës për të qëndruar i motivuar dhe për të shkëlqyer.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+  
+  <section class="mt-30 md:flex md:justify-around text-center" id="services">
+        <header class="mt-5 md:ml-50">
+            <h3 class="header-span">𝓚𝓾𝓻𝓲𝓸𝔃 𝓹ë𝓻 𝓽ë 𝓭𝓲𝓽𝓾𝓻 𝓢𝓱ë𝓻𝓫𝓲𝓶𝓮𝓽 𝓣𝓸𝓷𝓪?</h3>
+            <h1 class="text-6xl font-bold mt-5">Ne ofrojmë Quiz-et<br> më të<br>Mira  për Testin<br> e Semimatures</h1>
+        </header>
+        <article>
+            <h1 class="font-bold text-4xl text-center md:mt-0 mt-10">Zgjidh Lëndën</h1>
+            <div class="overflow-x-auto md:flex md:justify-around">
+                <section class="flex flex-nowrap md:flex-wrap justify-evenly relative mb-20 space-x-4 w-200 text-center mt-13">
+                    <article class="grid">
+                        <div class="flex gap-2">
+                           <h1 class="article-header">Gjuhe Shqipe</h1>
+                           <button class="article-btn"><a href="Gjuhe Shqipe/albanian.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-5 mt-5">
+                           <h1 class="article-header">Matematike</h1>
+                           <button class="article-btn"><a href="Matematike/matematike.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-18 mt-5">
+                           <h1 class="article-header">Kimi</h1>
+                           <button class="article-btn"><a href="Teknologji/teknologji.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-16 mt-5">
+                            <h1 class="article-header">Fizike</h1>
+                            <button class="article-btn"><a href="Fizike/fizike.html" target="_blank">Kliko</a></button>
+                        </div>
+                    </article>
+                    <article class="grid  md:ml-20 ml-10">
+                        <div class="flex gap-15">
+                           <h1 class="article-header">Histori</h1>
+                           <button class="article-btn"><a href="Histori/histori.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-13 mt-5">
+                           <h1 class="article-header">Biologji</h1>
+                           <button class="article-btn"><a href="Biologji/biologji.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-10 mt-5">
+                           <h1 class="article-header">Gjeografi</h1>
+                           <button class="article-btn"><a href="Gjeografi/gjeografi.html" target="_blank">Kliko</a></button>
+                        </div>
+                        <div class="flex gap-12 mt-5">
+                            <h1 class="article-header">Anglisht</h1>
+                            <button class="article-btn"><a href="Gjermanisht/gjermanisht.html" target="_blank">Kliko</a></button>
+                        </div>
+                    </article> 
+                </section>
+            </div>
+        </article>
+  </section>
+
+  <footer class="footer md:flex md:justify-around py-10 mt-20 text-center">
+      <div class="grid left">
+          <h1 class="text-3xl font-bold">Quiz<span class="header-span">Grad</span></h1>
+          <div>
+            <ul class="md:flex justify-around mt-5 text-lg font-bold">
+              <li><a href="#works">Si Funksionon</a></li>
+              <li><a href="#services">Shërbimet Tona</a></li>
+          </ul>
+          <p>&copy;Copyright @2025 QuizGrad. All rights reserved</p>
+          </div>
+      </div>
+
+      <div class="grid md:mt-0 mt-5">
+          <h1 class="text-white font-bold">Mbështetje E Ekipit</h1>
+          <a href="#">Bekim Sylka</a>
+          <a href="#">durgutisylejman00@gmail.com</a>
+          <a href="#">Kosove, Rahovec</a>
+      </div>
+
+      <div class="grid md:mt-0 mt-5">
+          <h1 class="text-white font-bold">Lidhje të Shpejta</h1>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+          <a href="#">Terms Of Use</a>
+      </div>
+
+      <div class="right md:mt-0 mt-5">
+        <h1 class="text-3xl font-bold">Rreth Quiz<span class="header-span">Grad</span></h1>
+        <p class="mt-3">
+          Quizgrad është një kompani quiz inovative<br>
+          që synon të bashkojë edukimin dhe argëtimin<br>
+          në një platformë dinamike
+        </p>
+      </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
