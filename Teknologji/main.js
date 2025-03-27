@@ -1,6 +1,6 @@
 const questions = [
     
-    // KIMI - 16 pyetje
+    // KIMI - 21 pyetje
     {
         question: "Si quhen ndryshe alkanet ?",
         answers: [
