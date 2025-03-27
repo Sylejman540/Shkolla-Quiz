@@ -1,15 +1,95 @@
 const questions = [
-    
-    // MATEMATIKË - 21 pyetje
+    // MATEMATIKE - 43
     {
-        question: "Në një raport 3:5, nëse pjesa e parë është 9, sa është pjesa e dytë?",
-        answers: [
-          { text: "12", correct: false },
-          { text: "18", correct: false },
-          { text: "15", correct: true },
-          { text: "20", correct: false }
-        ]
-      },
+      question: "Cila është vlera e shprehjes: 5²?",
+      answers: [
+        { text: "10", correct: false },
+        { text: "25", correct: true },
+        { text: "15", correct: false },
+        { text: "20", correct: false }
+      ]
+    },
+    {
+      question: "Një trekëndësh ka brinjtë 5cm, 5cm dhe 8cm. Çfarë trekëndëshi është?",
+      answers: [
+        { text: "Barabrinjësh", correct: false },
+        { text: "Drejtëkëndor", correct: false },
+        { text: "Barabranor", correct: true },
+        { text: "Skaleno", correct: false }
+      ]
+    },
+    {
+      question: "Sa është 30% e numrit 200?",
+      answers: [
+        { text: "30", correct: false },
+        { text: "60", correct: true },
+        { text: "90", correct: false },
+        { text: "40", correct: false }
+      ]
+    },
+    {
+      question: "Cila nga këto është numër i thyesës?",
+      answers: [
+        { text: "0.5", correct: true },
+        { text: "5", correct: false },
+        { text: "10", correct: false },
+        { text: "20", correct: false }
+      ]
+    },
+    {
+      question: "Sa është 7²?",
+      answers: [
+        { text: "49", correct: true },
+        { text: "14", correct: false },
+        { text: "21", correct: false },
+        { text: "56", correct: false }
+      ]
+    },
+    {
+      question: "Nëse një rreth ka diametër 14cm, sa është rrezja?",
+      answers: [
+        { text: "7cm", correct: true },
+        { text: "28cm", correct: false },
+        { text: "10cm", correct: false },
+        { text: "14cm", correct: false }
+      ]
+    },
+    {
+      question: "Sa është përimetri i një katrori me brinjë 6cm?",
+      answers: [
+        { text: "24cm", correct: true },
+        { text: "36cm", correct: false },
+        { text: "12cm", correct: false },
+        { text: "18cm", correct: false }
+      ]
+    },
+    {
+      question: "Nëse 3x = 12, sa është x?",
+      answers: [
+        { text: "4", correct: true },
+        { text: "3", correct: false },
+        { text: "6", correct: false },
+        { text: "5", correct: false }
+      ]
+    },
+    {
+      question: "Nëse 2/3 e klasës janë vajza dhe ka 30 nxënës gjithsej, sa janë djem?",
+      answers: [
+        { text: "10", correct: true },
+        { text: "15", correct: false },
+        { text: "20", correct: false },
+        { text: "12", correct: false }
+      ]
+    },
+    {
+      question: "Cili numër është numër i thyesës?",
+      answers: [
+        { text: "3/4", correct: true },
+        { text: "4", correct: false },
+        { text: "0", correct: false },
+        { text: "7", correct: false }
+      ]
+    },
       {
         question: " Kendi suplementar i kendit 145* eshte",
         answers: [
@@ -173,7 +253,24 @@ const questions = [
           { text: "eshte ne origjinen e boshtit numerik", correct: false }
         ]
       },
-      
+      {
+        question: "Sipërfaqja e një rrethi llogaritet me formulën:",
+        answers: [
+          { text: "S = πr²", correct: true },
+          { text: "S = 2πr", correct: false },
+          { text: "S = r²", correct: false },
+          { text: "S = πd", correct: false }
+        ]
+      },
+      {
+        question: "Nëse perimetri i një rrethi është 62.8 cm dhe π merret si 3.14, sa është rrezja?",
+        answers: [
+          { text: "10 cm", correct: true },
+          { text: "20 cm", correct: false },
+          { text: "5 cm", correct: false },
+          { text: "15 cm", correct: false }
+        ]
+      },
       {
        question : "Cila është formula themelore e teoremës së Pitagorës?",
        answers: [
@@ -190,6 +287,110 @@ const questions = [
           { "text": "13", "correct": false },
           { "text": "10", "correct": false },
           { "text": "14", "correct": false }
+        ]
+      },
+      {
+        question: "Cila është formula për të gjetur perimetrin e një rrethi?",
+        answers: [
+          { text: "P = 2πr", correct: true },
+          { text: "P = πr²", correct: false },
+          { text: "P = r²", correct: false },
+          { text: "P = dπ", correct: false }
+        ]
+      },
+      {
+        question: "Nëse rrezja e një rrethi është 4 cm, sa është diametri?",
+        answers: [
+          { text: "8 cm", correct: true },
+          { text: "12 cm", correct: false },
+          { text: "6 cm", correct: false },
+          { text: "4 cm", correct: false }
+        ]
+      },
+      {
+        question: "Çfarë përfaqëson π (pi) në matematikë?",
+        answers: [
+          { text: "Raportin midis perimetrit dhe diametrit të rrethit", correct: true },
+          { text: "Gjysmën e diametrit", correct: false },
+          { text: "Numrin e brinjëve në një katror", correct: false },
+          { text: "Një konstante për trekëndësha", correct: false }
+        ]
+      },
+    
+      // Teorema e Talesit
+      {
+        question: "Çfarë thotë teorema e Talesit?",
+        answers: [
+          { text: "Këndi i barabartë me 180° është i drejtë", correct: false },
+          { text: "Katetët në një trekëndësh janë të barabartë", correct: false },
+          { text: "Çdo trekëndësh është i barabranë", correct: false },
+          { text: "Këndi i ndërtuar në një gjysmë rrethi është gjithmonë 90°", correct: true },
+        ]
+      },
+      {
+        question: "Në një trekëndësh të ndërtuar sipas teoremës së Talesit, cili është tipi i tij?",
+        answers: [
+          { text: "Trekëndësh barabrinjësh", correct: false },
+          { text: "Trekëndësh barabranor", correct: false },
+          { text: "Trekëndësh i çrregullt", correct: false },
+          { text: "Trekëndësh kënddrejtë", correct: true },
+        ]
+      },
+      {
+        question: "Kur një pikë ndahet në mënyrë proporcionale nga dy vija të pjerrëta në një rreth, për çfarë flasim?",
+        answers: [
+          { text: "Teorema e Pitagorës", correct: false },
+          { text: "Trekëndësh skaleno", correct: false },
+          { text: "Përdorimi i Talesit", correct: true },
+          { text: "Rregulli i Treit", correct: false }
+        ]
+      },
+    
+      // Llojet e trekëndëshave
+      {
+        question: "Trekëndëshi me të gjitha brinjët të barabarta quhet:",
+        answers: [
+          { text: "Barabrinjësh", correct: true },
+          { text: "Skaleno", correct: false },
+          { text: "Barabranor", correct: false },
+          { text: "Kënddrejtë", correct: false }
+        ]
+      },
+      {
+        question: "Trekëndëshi që ka një kënd 90° quhet:",
+        answers: [
+          { text: "Trekëndësh skaleno", correct: false },
+          { text: "Trekëndësh kënddrejtë", correct: true },
+          { text: "Trekëndësh barabranor", correct: false },
+          { text: "Trekëndësh këndmprehtë", correct: false }
+        ]
+      },
+      {
+        question: "Nëse një trekëndësh ka brinjë me gjatësi 3 cm, 4 cm dhe 5 cm, ai është:",
+        answers: [
+          { text: "Barabrinjësh", correct: false },
+          { text: "Barabranor", correct: false },
+          { text: "Këndmprehtë", correct: false },
+          { text: "Trekëndësh kënddrejtë", correct: true },
+        ]
+      },
+      {
+        question: "Cili trekëndësh ka të gjithë këndet më pak se 90°?",
+        answers: [
+          { text: "Trekëndësh kënddrejtë", correct: false },
+          { text: "Trekëndësh këndstërholluar", correct: false },
+          { text: "Trekëndësh këndmprehtë", correct: true },
+          { text: "Trekëndësh çrregullt", correct: false }
+        ]
+      },
+    
+      {
+        question: "Trekëndëshi që ka dy brinjë të barabarta quhet:",
+        answers: [
+          { text: "Barabrinjësh", correct: false },
+          { text: "Kënddrejtë", correct: false },
+          { text: "Barakrahes", correct: true },
+          { text: "Skaleno", correct: false }
         ]
       },
   ];
