@@ -1,6 +1,5 @@
-
 const questions = [
-    // HISTORI - 23 pyetje
+    // HISTORI - 36 
     {
       question: "Cili ishte themeluesi i Pavarësisë së Shqipërisë?",
       answers: [
@@ -207,7 +206,124 @@ const questions = [
         { text: "1820-1821", "correct": false },
         { text: "1790-1791", "correct": false }
       ]
-    }
+    },
+    {
+      question: "Në cilin vit filloi Lufta e Parë Botërore?",
+      answers: [
+        { text: "1912", correct: false },
+        { text: "1914", correct: true },
+        { text: "1916", correct: false },
+        { text: "1918", correct: false }
+      ]
+    },
+    {
+      question: "Shkëndija që ndezi Luftën e Parë Botërore ishte:",
+      answers: [
+        { text: "Zgjerimi i Gjermanisë", correct: false },
+        { text: "Pushtimi i Polonisë", correct: false },
+        { text: "Vrasja e Franc Ferdinandit", correct: true },
+        { text: "Lufta civile në Rusi", correct: false }
+      ]
+    },
+    {
+      question: "Kur filloi Lufta e Dytë Botërore?",
+      answers: [
+        { text: "1938", correct: false },
+        { text: "1939", correct: true },
+        { text: "1940", correct: false },
+        { text: "1941", correct: false }
+      ]
+    },
+    {
+      question: "Cili shtet e sulmoi Poloninë në 1939 duke nisur Luftën e Dytë Botërore?",
+      answers: [
+        { text: "Italia", correct: false },
+        { text: "Gjermania", correct: true },
+        { text: "Franca", correct: false },
+        { text: "Britania", correct: false }
+      ]
+    },
+    {
+      question: "Kur përfundoi Lufta e Dytë Botërore në Evropë?",
+      answers: [
+        { text: "1 Maj 1945", correct: false },
+        { text: "8 Maj 1945", correct: true },
+        { text: "9 Maj 1945", correct: false },
+        { text: "2 Shtator 1945", correct: false }
+      ]
+    },
+    {
+      question: "Çfarë ishte 'Lufta e Ftohtë'?",
+      answers: [
+        { text: "Luftë e armatosur mes SHBA-së dhe BRSS", correct: false },
+        { text: "Konflikt pa përballje të drejtpërdrejtë mes SHBA-së dhe BRSS", correct: true },
+        { text: "Luftë civile në Gjermani", correct: false },
+        { text: "Luftë mes Japonisë dhe Kinës", correct: false }
+      ]
+    },
+    {
+      question: "Në cilin vit u krijua NATO?",
+      answers: [
+        { text: "1949", correct: true },
+        { text: "1945", correct: false },
+        { text: "1950", correct: false },
+        { text: "1955", correct: false }
+      ]
+    },
+    {
+      question: "Cila ngjarje shënon fillimin e Mesjetës (shekulli V)?",
+      answers: [
+        { text: "Zbulimi i Amerikës", correct: false },
+        { text: "Rënia e Perandorisë Romake", correct: true },
+        { text: "Lindja e Islamit", correct: false },
+        { text: "Krijimi i shtetit shqiptar", correct: false }
+      ]
+    },
+    {
+      question: "Në cilin vit ra Perandoria Romake e Perëndimit?",
+      answers: [
+        { text: "476 pas Krishtit", correct: true },
+        { text: "395 pas Krishtit", correct: false },
+        { text: "500 pas Krishtit", correct: false },
+        { text: "410 pas Krishtit", correct: false }
+      ]
+    },
+    {
+      question: "Cili popull barbar shkaktoi rënien e Perandorisë Romake në shek. V?",
+      answers: [
+        { text: "Hunët", correct: false },
+        { text: "Vizigotët", correct: true },
+        { text: "Persët", correct: false },
+        { text: "Sllavët", correct: false }
+      ]
+    },
+    {
+      question: "Çfarë karakterizoi Evropën në shekullin X?",
+      answers: [
+        { text: "Shpërndarja e universiteteve", correct: false },
+        { text: "Feudalizmi dhe përhapja e krishterimit", correct: true },
+        { text: "Zhvillimi industrial", correct: false },
+        { text: "Formimi i shteteve demokratike", correct: false }
+      ]
+    },
+    {
+      question: "Kush ishte një figurë e rëndësishme politike dhe fetare në Evropën e shek. X?",
+      answers: [
+        { text: "Karl i Madh", correct: true },
+        { text: "Aleksandri i Madh", correct: false },
+        { text: "Napoleoni", correct: false },
+        { text: "Cezari", correct: false }
+      ]
+    },
+    {
+      question: "Cili ishte sistemi shoqëror që dominonte në shekullin X në Evropë?",
+      answers: [
+        { text: "Kapitalizmi", correct: false },
+        { text: "Feudalizmi", correct: true },
+        { text: "Komunizmi", correct: false },
+        { text: "Demokracia", correct: false }
+      ]
+    },
   ];
   
   const questionElement = document.getElementById("question");
