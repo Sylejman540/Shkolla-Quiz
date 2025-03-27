@@ -1,5 +1,5 @@
 const questions = [
-    // FIZIKË - 29 pyetje
+    // FIZIKË - 29 
     {
       question: "Cili është një shembull i energjisë kinetike?",
       answers: [
@@ -108,7 +108,7 @@ const questions = [
         { text: "Higrometri", correct: false }
       ]
     },
-    {
+    { 
       question: "Çfarë njihet si një valë në fizikë?",
       answers: [
         { text: "Lëvizje e rrethit", correct: false },
