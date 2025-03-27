@@ -1,4 +1,5 @@
 const questions = [
+  // GJEOGRAFI - 22
   {
     question: "Sa është sipërfaqja e Republikës së Kosovës?",
     answers: [
