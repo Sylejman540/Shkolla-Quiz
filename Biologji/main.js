@@ -1,4 +1,5 @@
 const questions = [
+  // BIOLOGJI - 28
   {
     question: "Cila prej organelave është përgjegjëse për prodhimin e energjisë në qelizë?",
     answers: [
@@ -27,39 +28,12 @@ const questions = [
     ]
   },
   {
-    question: "Cili nga përbërësit e ADN-së nuk është një bazë azotike tipike e tij?",
-    answers: [
-      { text: "Adenina", correct: false },
-      { text: "Guanina", correct: false },
-      { text: "Timina", correct: false },
-      { text: "Uracili", correct: true }
-    ]
-  },
-  {
-    question: "Cila enzimë është thelbësore për replikimin e ADN-së?",
-    answers: [
-      { text: "DNA polimeraza", correct: true },
-      { text: "Helikaza", correct: false },
-      { text: "Ligaza", correct: false },
-      { text: "Primaza", correct: false }
-    ]
-  },
-  {
     question: "Cila është funksioni kryesor i qelizave të kuqe të gjakut?",
     answers: [
       { text: "Mbrojtja kundër infeksioneve", correct: false },
       { text: "Koagulimi i gjakut", correct: false },
       { text: "Rregullimi i temperaturës", correct: false },
       { text: "Transportimi i oksigjenit", correct: true }
-    ]
-  },
-  {
-    question: "Cili proces shoqëron prodhimin e qelizave të reja në indet e trupit?",
-    answers: [
-      { text: "Mejoza", correct: false },
-      { text: "Mitoza", correct: true },
-      { text: "Diferencimi qelizor", correct: false },
-      { text: "Apoptoza", correct: false }
     ]
   },
   {
@@ -180,6 +154,15 @@ const questions = [
     ]
   },
   {
+    question: "Cilat janë qelizat seksuale te njeriu?",
+    answers: [
+      { text: "Spermatozoidet dhe vezët", correct: true },
+      { text: "Qelizat e kuqe dhe të bardha të gjakut", correct: false },
+      { text: "Neuronet dhe muskujt", correct: false },
+      { text: "Qelizat e lëkurës dhe të flokëve", correct: false }
+    ]
+  },
+  {
     question: "Çfarë janë parazitët?",
     answers: [
       { text: "Organizma që prodhojnë energji nga drita diellore", correct: false },
@@ -187,7 +170,88 @@ const questions = [
       { text: "Organizma që janë pjesë e simbiozës reciproke", correct: false },
       { text: "Organizma që rriten në mjedise të pasura me lëndë ushqyese", correct: false }
     ]
-  }
+  },
+{
+  question: "Aborti është:",
+  answers: [
+    { text: "Një sëmundje e trashëgueshme", correct: false },
+    { text: "Ndërprerja e shtatzënisë para lindjes", correct: true },
+    { text: "Procesi i rritjes së fetusit", correct: false },
+    { text: "Faza e fundit e zhvillimit embrional", correct: false }
+  ]
+},
+{
+  question: "Cili është roli i testiseve te meshkujt?",
+  answers: [
+    { text: "Prodhimi i qelizave të bardha", correct: false },
+    { text: "Prodhimi i spermatozoideve", correct: true },
+    { text: "Prodhimi i hormoneve femërore", correct: false },
+    { text: "Magazinimi i gjakut", correct: false }
+  ]
+},
+{
+  question: "Cila është funksioni i sistemit të frymëmarrjes te njeriu?",
+  answers: [
+    { text: "Qarkullimi i gjakut", correct: false },
+    { text: "Tretja e ushqimit", correct: false },
+    { text: "Furnizimi i trupit me oksigjen dhe largimi i dioksidit të karbonit", correct: true },
+    { text: "Koagulimi i gjakut", correct: false }
+  ]
+},
+{
+  question: "Cili është organi kryesor i sistemit nervor?",
+  answers: [
+    { text: "Zemra", correct: false },
+    { text: "Stomaku", correct: false },
+    { text: "Truri", correct: true },
+    { text: "Mushkëritë", correct: false }
+  ]
+},
+{
+  question: "Cilat janë përbërësit kryesorë të sistemit të qarkullimit të gjakut?",
+  answers: [
+    { text: "Zemra dhe enët e gjakut", correct: true },
+    { text: "Mushkëritë dhe stomaku", correct: false },
+    { text: "Truri dhe palca kurrizore", correct: false },
+    { text: "Mëlçia dhe pankreasi", correct: false }
+  ]
+},
+{
+  question: "Ku ndodh pllënimi natyror te njerëzit?",
+  answers: [
+    { text: "Në mitër", correct: false },
+    { text: "Në vezore", correct: false },
+    { text: "Në tubat fallopiane", correct: true },
+    { text: "Në vaginë", correct: false }
+  ]
+},
+{
+  question: "Çfarë është pllënimi?",
+  answers: [
+    { text: "Procesi i formimit të qelizave seksuale", correct: false },
+    { text: "Bashkimi i spermatozoidit me vezën", correct: true },
+    { text: "Formimi i fetusit", correct: false },
+    { text: "Lindja e foshnjës", correct: false }
+  ]
+},
+{
+  question: "Cila pjesë e trupit filtron gjakun dhe prodhon urinën?",
+  answers: [
+    { text: "Stomaku", correct: false },
+    { text: "Zemra", correct: false },
+    { text: "Veshkat", correct: true },
+    { text: "Zorrët", correct: false }
+  ]
+},
+{
+  question: "Cili është roli i mëlçisë në trup?",
+  answers: [
+    { text: "Pompon gjakun", correct: false },
+    { text: "Prodhon hormone", correct: false },
+    { text: "Pastron gjakun nga toksinat dhe prodhon lëngun e tëmthit", correct: true },
+    { text: "Ndihmon në frymëmarrje", correct: false }
+  ]
+}
 ];
 
 const questionElement = document.getElementById("question");
