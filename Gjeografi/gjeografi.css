@@ -1,9 +1,22 @@
 body{
     font-family: LatoRobotoOpen Sans;
-    font-family: LatoRobotoOpen Sans;
     background-image: url(images/rm380-12.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.logo{
+    animation-name: slideRight;
+    animation-duration: 3s;
+}
+
+@keyframes slideRight {
+    from{
+        transform: translateX(300%);
+    }
+    to{
+        transform: translateX(0) ;
+    }
 }
 
 .app{
