@@ -1,5 +1,5 @@
 const questions = [
-    // FIZIKË - 29 
+    // FIZIKË - 39 
     {
       question: "Cili është një shembull i energjisë kinetike?",
       answers: [
@@ -217,6 +217,51 @@ const questions = [
       ]
     },
     {
+      question: "Cila madhësi fizike mat sasine e rrymës elektrike që kalon përmes një përçuesi?",
+      answers: [
+        { text: "Tensioni (Volt)", correct: false },
+        { text: "Rezistenca (Ohm)", correct: false },
+        { text: "Rryma elektrike (Ampere)", correct: true },
+        { text: "Fuqia elektrike (Watt)", correct: false }
+      ]
+    },
+    {
+      question: "Cili ligj përshkruan raportin midis tensionit, rrymës dhe rezistencës elektrike?",
+      answers: [
+        { text: "Ligji i Hookut", correct: false },
+        { text: "Ligji i keplerit", correct: false },
+        { text: "Ligji i Ohmit (V = I × R)", correct: true },
+        { text: "Ligji i Coulombit", correct: false }
+      ]
+    },
+    {
+      question: "Cila njësi përdoret për matjen e frekuencës së valëve (p.sh. valët zanore)?",
+      answers: [
+        { text: "Herc (Hz)", correct: true },
+        { text: "Pascal (Pa)", correct: false },
+        { text: "Watt (W)", correct: false },
+        { text: "Joule (J)", correct: false }
+      ]
+    },
+    {
+      question: "Cila është formula për densitetin (dendësinë) e një lënde?",
+      answers: [
+        { text: "d = m / v", correct: true },
+        { text: "d = v / m", correct: false },
+        { text: "d = m × v", correct: false },
+        { text: "d = m² / v", correct: false }
+      ]
+    },
+    {
+      question: "Në çfarë kushtesh një trup noton në një lëng?",
+      answers: [
+        { text: "Kur dendësia e trupit është më e madhe se ajo e lëngut", correct: false },
+        { text: "Kur dendësia e trupit është e barabartë me lëngun", correct: false },
+        { text: "Kur dendësia e trupit është më e vogël se ajo e lëngut", correct: true },
+        { text: "Varet vetëm nga temperatura e lëngut", correct: false }
+      ]
+    },
+    {
       "question": "Çfarë përshkruan refraksioni i dritës?",
       "answers": [
         { "text": "Ndryshimi i drejtimit të dritës kur kalon nga një mjedis në një tjetër", "correct": true },
@@ -261,6 +306,51 @@ const questions = [
         { "text": "Zhvillimi i ngjyrave të reja", "correct": false }
       ]
     },
+  {
+    question: "Çfarë thotë Ligji i Lencit?",
+    answers: [
+      { text: "Rryma e indukuar gjithmonë rrit fushën magnetike fillestare", correct: false },
+      { text: "Rryma e indukuar gjithmonë e zvogëlon forcën gravitacionale", correct: false },
+      { text: "Rryma e indukuar kundërshton ndryshimin e fushës magnetike që e ka shkaktuar", correct: true },
+      { text: "Rryma e indukuar nuk varet nga forcat e jashtme", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është induksioni elektromagnetik?",
+    answers: [
+      { text: "Procesi i çlirimit të ngrohjes nga një përçues", correct: false },
+      { text: "Procesi i krijimit të rrymës elektrike kur ndryshon fusha magnetike rreth një përçuesi", correct: true },
+      { text: "Gjen Rrymë elektrike vetëm në rrethana vakumi", correct: false },
+      { text: "Një fenomen që ndodh vetëm tek magnetët e përhershëm", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë thotë Parimi i parë i termodinamikës?",
+    answers: [
+      { text: "Energjia e brendshme e një sistemi nuk varet nga puna dhe nxehtësia", correct: false },
+      { text: "Nxehtësia nuk mund të transferohet nga trupi më i nxehtë te ai më i ftohtë", correct: false },
+      { text: "Ndryshimi i energjisë së brendshme të një sistemi është i barabartë me nxehtësinë e shtuar minus punën e kryer nga sistemi", correct: true },
+      { text: "Entropia e gjithësisë është gjithmonë konstante", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është rryma elektrike?",
+    answers: [
+      { text: "Lëvizja e dritës nëpër një përçues", correct: false },
+      { text: "Lëvizja e grimcave të ngarkuara elektrikisht (elektronëve) nëpër një përçues", correct: true },
+      { text: "Një formë e energjisë bërthamore", correct: false },
+      { text: "Grimcat magnetike që kalojnë në boshllëk", correct: false }
+    ]
+  },
+  {
+    question: "Cili është përkufizimi i Ligjit të tretë të Njutonit?",
+    answers: [
+      { text: "Forca rezultante mbi një trup është e barabartë me masën e trupit shumëzuar me akseleracionin", correct: false },
+      { text: "Çdo veprim ka një kundërveprim të barabartë dhe të kundërt", correct: true },
+      { text: "Forca e gravitetit rritet me rritjen e shpejtësisë", correct: false },
+      { text: "Inercia e trupit varet vetëm nga forca e fërkimit", correct: false }
+    ]
+  },
   ];
   const questionElement = document.getElementById("question");
   const answerButtons = document.getElementById("answer-buttons");
