@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/hat.png">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>QuizGrad</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
   <div class="flex justify-around md:ml-0 ml-5 md:mr-0 mr-5">
-    <h1 class="text-6xl font-bold text-center"><a href="javascript:void(0);" onclick="window.location.reload();">Quiz<span class="header-span">Grad</a></span></h1>
+    <h1 class="text-6xl font-bold text-center logo mt-1"><a href="javascript:void(0);" onclick="window.location.reload();">Quiz<span class="header-span">Grad</a></span></h1>
     <nav class="md:block hidden">
         <ul class="md:flex justify-around gap-10 mt-5 text-lg">
             <li><a href="#works">Si Funksionon</a></li>
@@ -37,7 +38,7 @@
     </nav>
   </div>
     
-  <section class="md:mt-20 md:flex md:justify-around md:text-start text-center">
+  <section class="md:mt-20 md:flex md:justify-around md:text-start text-center banner">
     <header class="mt-14 md:ml-40">
        <h3 class="header-span">𝓖𝓪𝓽𝓲 𝓹ë𝓻 𝓽ë 𝓶ë𝓼𝓾𝓪𝓻?</h3>
        <h1 class="text-6xl font-bold mt-5">Quiz<span class="header-span">Grad</span> Ka <br>Më të Mirat Metoda<br> të Mësimit</h1>
@@ -45,8 +46,8 @@
     </header>
     <img src="images/Group 118.png" alt="">
   </section>
-
-  <section class="py-12 mt-20 md:hidden" id="works">
+<main id="works">
+  <section class="py-12 mt-20 md:hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ml-5 mr-5">
         <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Si funksionon?</h2>
       <div class="overflow-x-auto md:flex md:justify-around">
@@ -184,7 +185,8 @@
         </div>
       </div>
     </div>
-</section>
+  </section>
+</main>
   
   <section class="mt-30 md:flex md:justify-around text-center" id="services">
         <header class="mt-5 md:ml-50">
@@ -198,37 +200,37 @@
                     <article class="grid">
                         <div class="flex gap-2">
                            <h1 class="article-header">Gjuhe Shqipe</h1>
-                           <button class="article-btn"><a href="Gjuhe Shqipe/albanian.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Gjuhe Shqipe/albanian.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-5 mt-5">
                            <h1 class="article-header">Matematike</h1>
-                           <button class="article-btn"><a href="Matematike/matematike.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Matematike/matematike.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-18 mt-5">
                            <h1 class="article-header">Kimi</h1>
-                           <button class="article-btn"><a href="Teknologji/teknologji.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Kimi/kimi.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-16 mt-5">
                             <h1 class="article-header">Fizike</h1>
-                            <button class="article-btn"><a href="Fizike/fizike.html" target="_blank">Kliko</a></button>
+                            <button class="article-btn shadow-md"><a href="Fizike/fizike.html" target="_blank">Kliko</a></button>
                         </div>
                     </article>
                     <article class="grid  md:ml-20 ml-10">
                         <div class="flex gap-15">
                            <h1 class="article-header">Histori</h1>
-                           <button class="article-btn"><a href="Histori/histori.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Histori/histori.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-13 mt-5">
                            <h1 class="article-header">Biologji</h1>
-                           <button class="article-btn"><a href="Biologji/biologji.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Biologji/biologji.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-10 mt-5">
                            <h1 class="article-header">Gjeografi</h1>
-                           <button class="article-btn"><a href="Gjeografi/gjeografi.html" target="_blank">Kliko</a></button>
+                           <button class="article-btn shadow-md"><a href="Gjeografi/gjeografi.html" target="_blank">Kliko</a></button>
                         </div>
                         <div class="flex gap-12 mt-5">
                             <h1 class="article-header">Anglisht</h1>
-                            <button class="article-btn"><a href="Gjermanisht/gjermanisht.html" target="_blank">Kliko</a></button>
+                            <button class="article-btn shadow-md"><a href="Anglisht/anglisht.html" target="_blank">Kliko</a></button>
                         </div>
                     </article> 
                 </section>
@@ -240,7 +242,7 @@
       <div class="grid left">
           <h1 class="text-3xl font-bold">Quiz<span class="header-span">Grad</span></h1>
           <div>
-            <ul class="md:flex justify-around mt-5 text-lg font-bold">
+            <ul class="md:flex justify-around mt-5 text-lg font-bold text-white">
               <li><a href="#works">Si Funksionon</a></li>
               <li><a href="#services">Shërbimet Tona</a></li>
           </ul>
