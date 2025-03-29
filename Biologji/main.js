@@ -1,5 +1,5 @@
 const questions = [
-  // BIOLOGJI - 28
+  // BIOLOGJI - 36
   {
     question: "Cila prej organelave është përgjegjëse për prodhimin e energjisë në qelizë?",
     answers: [
@@ -208,6 +208,24 @@ const questions = [
   ]
 },
 {
+  question: "Çfarë janë fosilet?",
+  answers: [
+    { text: "Kafshë të gjalla që gjenden thellë në tokë", correct: false },
+    { text: "Mbetjet ose gjurmët e organizmave të lashtë të ruajtura në shkëmbinj", correct: true },
+    { text: "Lëndë djegëse të nxjerra nga toka", correct: false },
+    { text: "Organizma që jetojnë vetëm në oqean", correct: false }
+  ]
+},
+{
+  question: "Si ushqehen bimët?",
+  answers: [
+    { text: "Duke gjuajtur organizma më të vegjël", correct: false },
+    { text: "Duke thithur ushqim përmes rrënjëve në formë të gatshme", correct: false },
+    { text: "Duke prodhuar vetë lëndë ushqyese përmes fotosintezës", correct: true },
+    { text: "Duke përthithur oksigjen dhe e shndërruar në sheqerna", correct: false }
+  ]
+},
+{
   question: "Cilat janë përbërësit kryesorë të sistemit të qarkullimit të gjakut?",
   answers: [
     { text: "Zemra dhe enët e gjakut", correct: true },
@@ -250,6 +268,60 @@ const questions = [
     { text: "Prodhon hormone", correct: false },
     { text: "Pastron gjakun nga toksinat dhe prodhon lëngun e tëmthit", correct: true },
     { text: "Ndihmon në frymëmarrje", correct: false }
+  ]
+},
+{
+  question: "Cili hormon është përgjegjës për uljen e nivelit të sheqerit në gjak?",
+  answers: [
+    { text: "Insulina", correct: true },
+    { text: "Glukagoni", correct: false },
+    { text: "Adrenalina", correct: false },
+    { text: "Tiroksina", correct: false }
+  ]
+},
+{
+  question: "Cila strukturë i jep qelizës bimore mbështetje dhe formë shtesë?",
+  answers: [
+    { text: "Muri qelizor", correct: true },
+    { text: "Retikulumi endoplazmatik", correct: false },
+    { text: "Membrana qelizore", correct: false },
+    { text: "Lizozoma", correct: false }
+  ]
+},
+{
+  question: "Ku fillon tretja kimike e karbohidrateve te njeriu?",
+  answers: [
+    { text: "Në gojë", correct: true },
+    { text: "Në stomak", correct: false },
+    { text: "Në zorrën e hollë", correct: false },
+    { text: "Në mëlçi", correct: false }
+  ]
+},
+{
+  question: "Cilat qeliza të gjakut luajnë rol kryesor në mbrojtjen kundër infeksioneve?",
+  answers: [
+    { text: "Eritrocitet (qelizat e kuqe)", correct: false },
+    { text: "Leukocitet (qelizat e bardha)", correct: true },
+    { text: "Trombocitet", correct: false },
+    { text: "Eritropoietina", correct: false }
+  ]
+},
+{
+  question: "Cili mineral është thelbësor për ndërtimin dhe fortësinë e kockave?",
+  answers: [
+    { text: "Hekuri", correct: false },
+    { text: "Kalciumi", correct: true },
+    { text: "Jodi", correct: false },
+    { text: "Natriumi", correct: false }
+  ]
+},
+{
+  question: "Çfarë janë gjenet?",
+  answers: [
+    { text: "Struktura bazë e qelizës që prodhon energji", correct: false },
+    { text: "Njësia themelore e trashëgimisë gjenetike, përbërë nga sekuenca të ADN-së", correct: true },
+    { text: "Organelat që ndihmojnë në fotosintezë", correct: false },
+    { text: "Segmentet e ARN-së që formojnë membranën qelizore", correct: false }
   ]
 }
 ];
