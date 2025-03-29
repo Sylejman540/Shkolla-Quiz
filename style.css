@@ -5,6 +5,34 @@ body{
     background-size: cover;
 }
 
+.logo{
+    animation-name: slideRight;
+    animation-duration: 3s;
+}
+
+@keyframes slideRight {
+    from{
+        transform: translateX(300%);
+    }
+    to{
+        transform: translateX(0) ;
+    }
+}
+
+.banner{
+    animation-name: slideUp;
+    animation-duration: 3s;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0) ;
+    }
+}
+
 .header-span{
     color: #FCC822;
 }
