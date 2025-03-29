@@ -6,6 +6,20 @@ body{
     background-size: cover;
 }
 
+.logo{
+    animation-name: slideRight;
+    animation-duration: 3s;
+}
+
+@keyframes slideRight {
+    from{
+        transform: translateX(300%);
+    }
+    to{
+        transform: translateX(0) ;
+    }
+}
+
 .app{
     background-color: #fff;
     width: 90%;
