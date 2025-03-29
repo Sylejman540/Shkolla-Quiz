@@ -84,9 +84,9 @@ const questions = [
     {
       question: "Kur u emreua Stalini Sekretar I Pergjithshem I Partise Komuniste?",
       answers: [
-        { text: "Mars 1912", correct: false },
-        { text: "Prill 1912", correct: true },
-        { text: "Maj 1912", correct: false },
+        { text: "Mars 1922", correct: false },
+        { text: "Prill 1922", correct: true }, // <-- Shënuar si e saktë
+        { text: "Maj 1921", correct: false },
         { text: "Qershor 1912", correct: false }
       ]
     },
@@ -129,7 +129,7 @@ const questions = [
     {
       question: "Kur u pranu Shqiperia si anetare e Lidhjes se Kombeve?",
       answers: [
-        { text: " Nentor 1919", correct: false },
+        { text: "Nentor 1919", correct: false },
         { text: "Dhjetor 1919", correct: false },
         { text: "Dhjetor 1920", correct: true },
         { text: "Nentor 1920", correct: false }
@@ -138,9 +138,9 @@ const questions = [
     {
       question: "Në cilin vit u mbajt Kongresi i Manastirit?",
       answers: [
-        { text: "1908", "correct": true },
         { text: "1912", "correct": false },
         { text: "1899", "correct": false },
+        { text: "1908", "correct": true },
         { text: "1920", "correct": false }
       ]
     },
@@ -163,11 +163,11 @@ const questions = [
       ]
     },
     {
-      question: "Kur filloi dhe mbaoi lufta civile në SHBA?",
+      question: "Kur filloi dhe mbaroi lufta civile në SHBA?",
       answers: [
-        { text: "1861-1865", "correct": true },
         { text: "1850-1855", "correct": false },
         { text: "1860-1864", "correct": false },
+        { text: "1861-1865", "correct": true },
         { text: "1870-1875", "correct": false }
       ]
     },
@@ -192,18 +192,18 @@ const questions = [
     {
       question: "Kur u bashkua Gjermania (reunifikimi)?",
       answers: [
-        { text: "3 Tetor 1990", "correct": true },
         { text: "9 Nëntor 1989", "correct": false },
         { text: "1991", "correct": false },
-        { text: "1989", "correct": false }
+        { text: "1989", "correct": false },
+        { text: "3 Tetor 1990", "correct": true },
       ]
     },
     {
       question: "Kur u mbajt Kongresi i Vjenës?",
       answers: [
-        { text: "1814-1815", "correct": true },
         { text: "1800-1801", "correct": false },
         { text: "1820-1821", "correct": false },
+        { text: "1814-1815", "correct": true },
         { text: "1790-1791", "correct": false }
       ]
     },
