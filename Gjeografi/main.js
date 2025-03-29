@@ -1,5 +1,5 @@
 const questions = [
-  // GJEOGRAFI - 22
+  // GJEOGRAFI - 30
   {
     question: "Sa është sipërfaqja e Republikës së Kosovës?",
     answers: [
@@ -10,12 +10,39 @@ const questions = [
     ]
   },
   {
+    question: "Cili është shteti më i madh në botë për nga sipërfaqja?",
+    answers: [
+      { text: "Kanada", correct: false },
+      { text: "Rusia", correct: true },
+      { text: "Kina", correct: false },
+      { text: "Shtetet e Bashkuara", correct: false }
+    ]
+  },
+  {
     question: "Me cilat shtete kufizohet Republika e Kosovës?",
     answers: [
       { text: "Shqipërinë, Maqedoninë dhe Bullgarinë", correct: false },
       { text: "Shqipërinë, Maqedoninë dhe Serbinë", correct: false },
       { text: "Shqipërinë, Maqedoninë e Veriut, Malin e Zi dhe Serbinë", correct: true },
       { text: "Shqipërinë, Malin e Zi, Serbinë", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është një ngushticë?",
+    answers: [
+      { text: "Një shkretëtirë midis dy maleve", correct: false },
+      { text: "Një formë e luginës së thellë lumore", correct: false },
+      { text: "Një kalim detar i ngushtë që lidh dy trupa më të mëdhenj ujorë", correct: true },
+      { text: "Një vend i thellë detar ku bashkohen lumenjtë", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është një liqen?",
+    answers: [
+      { text: "Një mal i lartë i rrethuar me lumenj në çdo anë", correct: false },
+      { text: "Një sipërfaqe uji brenda tokës e rrethuar nga toka", correct: true },
+      { text: "Një det me kripshmëri të ulët", correct: false },
+      { text: "Një shtrirje e gjerë pyjore me lagështi të lartë", correct: false }
     ]
   },
   {
@@ -64,12 +91,30 @@ const questions = [
     ]
   },
   {
+    question: "Sa shtete ka kontinenti Afrikan (përafërsisht)?",
+    answers: [
+      { text: "48", correct: false },
+      { text: "50", correct: false },
+      { text: "54", correct: true },
+      { text: "60", correct: false }
+    ]
+  },
+  {
     question: "Meridiani i Grinuiçit është meridiani fillestar. Nëpër cilin prej këtyre kryeqyteteve kalon ai?",
     answers: [
       { text: "Parisi", correct: false },
       { text: "Berni", correct: false },
       { text: "Londra", correct: true },
       { text: "Berlini", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është një kep?",
+    answers: [
+      { text: "Një pikë shumë e thellë detare", correct: false },
+      { text: "Një ujëvarë që bie nga lartësi e madhe", correct: false },
+      { text: "Një zonë pyjore ku bashkohen lumenj", correct: false },
+      { text: "Një zgjatim i vogël i tokës që futet në det ose liqen", correct: true }
     ]
   },
   {
@@ -163,6 +208,15 @@ const questions = [
     ]
   },
   {
+    question: "Cila është përkufizimi i një gadishulli?",
+    answers: [
+      { text: "Një sipërfaqe uji në mes të një kontinenti", correct: false },
+      { text: "Një pjesë e madhe toke e rrethuar nga uji në tri anë", correct: true },
+      { text: "Një mal i shkëputur nga vargmali kryesor", correct: false },
+      { text: "Një ishull i lidhur me kontinentin vetëm në verë", correct: false }
+    ]
+  },
+  {
     question: "Cili vend është më i madh për nga sipërfaqja në Amerikën Veriore?",
     answers: [
       { text: "Kanada", correct: true },
@@ -178,6 +232,24 @@ const questions = [
       { text: "Meksika", correct: false },
       { text: "Kanada", correct: false },
       { text: "Kuba", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë është ishulli?",
+    answers: [
+      { text: "Një pjesë e tokës e rrethuar nga uji në të gjitha anët", correct: true },
+      { text: "Një pjesë e ujit e rrethuar nga toka", correct: false },
+      { text: "Një pyll i gjerë pranë një lumi", correct: false },
+      { text: "Një vargmal në një rajon bregdetar", correct: false }
+    ]
+  },
+  {
+    question: "Çfarë kuptojmë me termin 'reliev'?",
+    answers: [
+      { text: "Forma dhe llojet e lumenjve", correct: false },
+      { text: "Kushtet klimatike në një rajon", correct: false },
+      { text: "Luhatjet në lartësinë e tokës (male, fusha, lugina, pllaja)", correct: true },
+      { text: "Numri i popullsisë në një rajon", correct: false }
     ]
   },
   {
