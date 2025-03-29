@@ -1,5 +1,5 @@
 const questions = [
-    // MATEMATIKE - 43
+    // MATEMATIKE - 47
     {
       question: "Cila është vlera e shprehjes: 5²?",
       answers: [
@@ -64,12 +64,39 @@ const questions = [
       ]
     },
     {
+      question: "Zgjidh ekuacionin: 3x² - 12x - 15 = 0.",
+      answers: [
+        { text: "x = 5 ose x = 1", correct: false },
+        { text: "x = 3 ose x = 2", correct: false },
+        { text: "x = 5 ose x = -1", correct: true }, 
+        { text: "x = -3 ose x = 5", correct: false }
+      ]
+    },
+    {
+      question: "Në një trapez, bazat janë 10 cm dhe 14 cm, ndërsa lartësia është 6 cm. Sa është sipërfaqja e tij?",
+      answers: [
+        { text: "60 cm²", correct: false },
+        { text: "72 cm²", correct: true },   
+        { text: "84 cm²", correct: false },
+        { text: "48 cm²", correct: false }
+      ]
+    },
+    {
       question: "Nëse 3x = 12, sa është x?",
       answers: [
         { text: "4", correct: true },
         { text: "3", correct: false },
         { text: "6", correct: false },
         { text: "5", correct: false }
+      ]
+    },
+    {
+      question: "Cilin polinom quajmë trinom?",
+      answers: [
+        { text: "Polinomi me një term", correct: false },
+        { text: "Polinomi me dy terma", correct: false },
+        { text: "Polinomi me tre terma", correct: true },
+        { text: "Polinomi pa term konstant", correct: false }
       ]
     },
     {
