@@ -1,5 +1,5 @@
 const questions = [
-  // GJUHË SHQIPE - 42
+  // GJUHË SHQIPE - 41
   {
     question: "Cilat janë përemrat lidhorë?",
     answers: [
@@ -16,15 +16,6 @@ const questions = [
       { text: "Ndajfolje mënyre", correct: true },
       { text: "Ndajfolje vendi", correct: false },
       { text: "Ndajfolje sasie", correct: false }
-    ]
-  },
-  {
-    question: "Si ndahen parafjalët?",
-    answers: [
-      { text: "Thjeshta-përngjitura", correct: true },
-      { text: "Thjeshta-përbëra", correct: false },
-      { text: "Thjeshta-përbyllëse", correct: false },
-      { text: "Përbëra-përmbyllëse", correct: false }
     ]
   },
   {
@@ -55,12 +46,12 @@ const questions = [
     ]
   },
   {
-    question: "Cilat janë të sakta?",
+    question: "Cilat forma janë të sakta në gjuhën standarde shqipe?",
     answers: [
-      { text: "Paskajorja - larë", correct: true },
-      { text: "Paskajorja - duke larë", correct: false },
-      { text: "Pjesorja - larë", correct: true },
-      { text: "Përcjellorja - duke larë", correct: true }
+      { text: "Paskajorja = me larë", correct: true },
+      { text: "Pjesorja = larë", correct: true },
+      { text: "Paskajorja = larë", correct: false },
+      { text: "Përcjellorja = duke larë", correct: true },
     ]
   },
   {
@@ -85,7 +76,7 @@ const questions = [
     question: "Cilat janë llojet e dramës?",
     answers: [
       { text: "Tragjedi", correct: true },
-      { text: "Komedi", correct: false },
+      { text: "Komedi", correct: true },
       { text: "Monodramë", correct: false },
       { text: "Trillim", correct: false }
     ]
@@ -100,12 +91,12 @@ const questions = [
     ]
   },
   {
-    question: "Cila është vepra e parë letrare artistike e shkruar në gjuhën shqipe?",
+    question: "Cila konsiderohet vepra e parë me karakter artistik (poetik) e shkruar në gjuhën shqipe?",
     answers: [
-      { text: "Gjella e Shën Merisë së Virgjër – Jul Variboba", correct: true },
-      { text: "Meshari i Gjon Buzukut", correct: false },
+      { text: "Gjella e Shën Merisë së Virgjër – Jul Variboba (1762)", correct: true },
+      { text: "Meshari – Gjon Buzuku (1555)", correct: false },
       { text: "Të mësuem shqip", correct: false },
-      { text: "Gjella e Shën Merisë së Virgjër – Pjetër Budi", correct: false }
+      { text: "Lufta e shqiptarëve", correct: false }
     ]
   },
   {
